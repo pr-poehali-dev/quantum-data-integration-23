@@ -58,7 +58,13 @@ export default function LandingPage() {
         className="fixed top-0 left-0 right-0 h-0.5 bg-white origin-left z-30"
         style={{ scaleX }}
       />
-      <div className="fixed top-4 left-6 z-30 flex items-center gap-3">
+      <div className="fixed top-4 left-6 z-30 flex items-center gap-4">
+        <img
+          src="https://cdn.poehali.dev/projects/215e60bc-47d7-47d8-93a8-9aabef72583a/files/181303e4-38d3-4c40-8e82-00feff6b6680.jpg"
+          alt="Яндекс Еда"
+          className="h-8 object-contain"
+        />
+        <div className="w-px h-6 bg-white/20" />
         <a
           href="https://wa.me/79885285161"
           target="_blank"
