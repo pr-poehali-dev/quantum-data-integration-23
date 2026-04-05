@@ -64,6 +64,7 @@ export default function LandingPage() {
           alt="Яндекс Еда"
           className="h-8 object-contain"
         />
+        <span className="text-white font-semibold text-sm tracking-wide">Яндекс Еда</span>
         <div className="w-px h-6 bg-white/20" />
         <a
           href="https://wa.me/79885285161"
