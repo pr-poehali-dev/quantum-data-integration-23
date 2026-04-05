@@ -44,6 +44,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
             variant="outline"
             size="lg"
             className="text-[#FC3F1D] bg-transparent border-[#FC3F1D] hover:bg-[#FC3F1D] hover:text-white transition-colors text-lg px-10 py-6 rounded-full font-semibold"
+            onClick={() => window.open('https://reg.eda.yandex.ru/?advertisement_campaign=forms_for_agents&user_invite_code=84a7451ef6914d21a2edfaad7989a096&utm_content=blank&utm_campaign=yandex_official_sait', '_blank')}
           >
             {buttonText}
           </Button>
