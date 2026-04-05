@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Get feed",
+      "method": "GET",
+      "path": "/?action=feed",
+      "expectedStatus": 200
+    }
+  ]
+}
