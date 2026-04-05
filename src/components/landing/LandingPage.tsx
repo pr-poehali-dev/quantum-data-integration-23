@@ -73,6 +73,14 @@ export default function LandingPage() {
         >
           Telegram
         </a>
+        <a
+          href="https://max.ru/89885285161"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/70 hover:text-[#FC3F1D] transition-colors text-sm font-medium tracking-wide"
+        >
+          Max
+        </a>
       </div>
       <div
         ref={containerRef}
