@@ -60,12 +60,6 @@ export default function LandingPage() {
       />
       <div className="fixed top-4 left-6 z-30 flex items-center gap-4">
         <a
-          href="tel:+79885285161"
-          className="text-white/70 hover:text-[#FC3F1D] transition-colors text-sm font-medium tracking-wide"
-        >
-          +7 988 528-51-61
-        </a>
-        <a
           href="https://t.me/eda_yandex_russ"
           target="_blank"
           rel="noopener noreferrer"
