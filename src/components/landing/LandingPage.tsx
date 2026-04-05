@@ -58,12 +58,22 @@ export default function LandingPage() {
         className="fixed top-0 left-0 right-0 h-0.5 bg-white origin-left z-30"
         style={{ scaleX }}
       />
-      <a
-        href="tel:+79885285161"
-        className="fixed top-4 left-6 z-30 text-white/70 hover:text-[#FC3F1D] transition-colors text-sm font-medium tracking-wide"
-      >
-        +7 988 528-51-61
-      </a>
+      <div className="fixed top-4 left-6 z-30 flex items-center gap-4">
+        <a
+          href="tel:+79885285161"
+          className="text-white/70 hover:text-[#FC3F1D] transition-colors text-sm font-medium tracking-wide"
+        >
+          +7 988 528-51-61
+        </a>
+        <a
+          href="https://t.me/eda_yandex_russ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/70 hover:text-[#FC3F1D] transition-colors text-sm font-medium tracking-wide"
+        >
+          Telegram
+        </a>
+      </div>
       <div
         ref={containerRef}
         className="h-full overflow-y-auto snap-y snap-mandatory"
