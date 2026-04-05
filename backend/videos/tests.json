@@ -5,6 +5,18 @@
       "method": "GET",
       "path": "/?action=feed",
       "expectedStatus": 200
+    },
+    {
+      "name": "Get trending",
+      "method": "GET",
+      "path": "/?action=trending",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Search",
+      "method": "GET",
+      "path": "/?action=search&q=test",
+      "expectedStatus": 200
     }
   ]
 }
