@@ -60,7 +60,7 @@ export default function LandingPage() {
       />
       <div className="fixed top-4 left-6 z-30 flex items-center gap-4">
         <img
-          src="https://cdn.poehali.dev/projects/215e60bc-47d7-47d8-93a8-9aabef72583a/files/181303e4-38d3-4c40-8e82-00feff6b6680.jpg"
+          src="https://yastatic.net/s3/eda-front/www/0.0.1/apple-touch-icon-180x180.png"
           alt="Яндекс Еда"
           className="h-8 object-contain"
         />
